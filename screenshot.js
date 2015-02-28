@@ -9,10 +9,12 @@ function setScreenshotUrl(url) {
        window.onload = function () {
                 var img = document.getElementById('target');
                 var button = document.getElementById('saveImage');
-                //img.src = 'white.png';
+                /*
+                img.src = 'white.png';
                 img.onload = function () {
                     button.removeAttribute('disabled');
                 };
+                */
                 button.onclick = function () {
                     window.location.href = img.src.replace('image/png', 'image/octet-stream');
                 };
