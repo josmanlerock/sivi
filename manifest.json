@@ -1,14 +1,14 @@
 {
-  "name": "Test Screenshot Extension",
-  "version": "1.3",
-  "description": "Demonstrate screenshot functionality in the chrome.tabs api.",
+  "name": "sivi",
+  "version": "1.0",
+  "description": "Denuncia sivi.",
   "background": {
     "persistent": false,
     "scripts": ["background.js"]
   },
   "browser_action": {
     "default_icon": "sivi.png",
-    "default_title": "Take a screen shot!"
+    "default_title": "Centro sivi"
   },
   "permissions": [
     "activeTab"

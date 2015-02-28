@@ -14,7 +14,7 @@ function setScreenshotUrl(url) {
                 img.onload = function () {
                     button.removeAttribute('disabled');
                 };
-                */
+                 */
                 button.onclick = function () {
                     window.location.href = img.src.replace('image/png', 'image/octet-stream');
                 };
